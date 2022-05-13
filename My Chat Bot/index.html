@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Chat Bot </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="box">
+            <div class="top">
+                <h1 
+                    style="font-size: 3rem; font-weight: bolder;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    Send A Message !</h1>
+            </div>
+            <div class="mid">
+                <div class="chat">
+                    <h2><i class="fa-solid fa-robot"></i></h2>
+                    <p id="chatLog">Let's Chat...</p>
+                </div>
+            </div>
+            <div class="input">
+                <input type="text" id="userBox" onkeypress=talk() placeholder="Type A Message..." autofocus>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
